@@ -21,6 +21,8 @@ print(reply["messages"][-1].content)
 
 Each tool is a normal LangChain `StructuredTool`, so it also works with `llm.bind_tools(...)`, LangChain agents and any framework that accepts LangChain tools.
 
+Full walkthrough with real output: [LangChain SEC filing tools guide](https://secfeedapi.com/tutorials/langchain-sec-filing-tools/).
+
 ## Tools
 
 | Tool | What the agent gets | API calls |
