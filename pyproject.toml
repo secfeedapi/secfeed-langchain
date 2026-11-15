@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "secfeed-langchain"
+version = "0.1.0"
+description = "SEC EDGAR tools for LangChain and LangGraph agents: 10-K/10-Q sections, financial statements, insider trades, 8-Ks"
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+dependencies = ["secfeed>=0.1.3", "langchain-core>=0.3"]
+keywords = ["langchain", "langgraph", "sec", "edgar", "10-k", "insider trading", "financial statements", "agents", "tools"]
+
+[project.urls]
+Homepage = "https://secfeedapi.com"
+Source = "https://github.com/secfeedapi/secfeed-langchain"
+
+[tool.setuptools]
+packages = ["secfeed_langchain"]
